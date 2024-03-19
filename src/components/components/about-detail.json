@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_about_details",
+  "info": {
+    "displayName": "AboutDetail"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

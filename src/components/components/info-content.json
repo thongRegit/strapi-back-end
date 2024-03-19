@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_info_contents",
+  "info": {
+    "displayName": "InfoContent"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

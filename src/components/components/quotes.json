@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_components_quotes",
+  "info": {
+    "displayName": "quotes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "open_quote": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "line": {
+      "type": "text",
+      "required": true,
+      "default": "”革新的な世界のために”を実現するために、我々DTSは、お客様と真摯に向き合い、お客様との対話を通して、お客様のビジネス、業務に最も適したITソリューションをご提案させていただきます。  “デジタル化” を、より身近に感じていただくために、私たちが培ってきた経験・能力でお客様のビジネスの飛躍的な成長を全力でご支援いたします。"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "close_quote": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "line_second": {
+      "type": "text"
+    }
+  }
+}

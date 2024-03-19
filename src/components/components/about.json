@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_components_abouts",
+  "info": {
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "left": {
+      "displayName": "AboutDetail",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.about-detail"
+    },
+    "right": {
+      "displayName": "right",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.right"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

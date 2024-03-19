@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_layout_headers",
+  "info": {
+    "displayName": "HEADER",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    },
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    },
+    "service": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    },
+    "consultant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    }
+  }
+}

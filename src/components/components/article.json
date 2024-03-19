@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_articles",
+  "info": {
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "extra": {
+      "type": "string"
+    }
+  }
+}

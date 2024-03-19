@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_images",
+  "info": {
+    "displayName": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "customer_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

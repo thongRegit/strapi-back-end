@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_aritcle_lists",
+  "info": {
+    "displayName": "ArticleList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.article"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.info-content"
+    }
+  }
+}

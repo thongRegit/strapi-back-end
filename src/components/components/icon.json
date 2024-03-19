@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_icons",
+  "info": {
+    "displayName": "Icon"
+  },
+  "options": {},
+  "attributes": {
+    "Next": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

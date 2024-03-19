@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_rights",
+  "info": {
+    "displayName": "right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

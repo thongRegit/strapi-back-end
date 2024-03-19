@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_customers",
+  "info": {
+    "displayName": "Customer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "displayName": "image",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image"
+    }
+  }
+}

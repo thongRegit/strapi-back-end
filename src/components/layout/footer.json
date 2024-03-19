@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "FOOTER",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "policy": {
+      "type": "string",
+      "required": true,
+      "default": "Copyright © 2024 DTS. All rights reserved."
+    },
+    "japanese": {
+      "type": "string",
+      "required": true,
+      "default": "プライバシーポリシー"
+    }
+  }
+}
